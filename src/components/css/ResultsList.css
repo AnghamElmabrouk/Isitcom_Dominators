@@ -1,0 +1,96 @@
+/* one issues results card */
+.exclamation,
+.comment,
+.title-description-container,
+.issues-label-wrapper,
+.issues-title,
+.issue-label,
+.issues-description,
+.description-avatar-wrapper,
+.user-avatar {
+  display: inline-block;
+}
+
+.issues-container {
+  padding: 0.5rem;
+  background-color: #fafbfc;
+}
+
+.exclamation {
+  width: 2.8rem;
+  height: 100%;
+  padding-left: 16px;
+  float: left;
+  color: #28a745;
+}
+
+.title-description-container {
+  width: 85%;
+}
+
+.comments {
+  width: 4rem;
+  font-size: 14px;
+  height: 100%;
+  float: right;
+  display: inline-block;
+}
+
+.comments-link,
+.issues-github-link {
+  color: #586069;
+}
+
+/* from github */
+.issues-label-container {
+  display: inline-block;
+}
+
+.issue-label {
+  border-radius: 2px;
+  box-shadow: inset 0 -1px 0 rgba(27, 31, 35, 0.12);
+  font-size: 12px;
+  font-weight: 600;
+  height: 20px;
+  line-height: 15px;
+  padding: 0.15em 4px;
+  margin-left: 8px;
+}
+
+.issues-title {
+  margin-bottom: 0.3rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.issues-body {
+  height: 2.6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.issues-body-text {
+  font-size: 0.8rem;
+}
+
+.issues-description {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.user-avatar {
+  width: 18px;
+  margin-left: 0.5rem;
+  border-radius: 1px;
+}
+
+.repo-name {
+  color: #586069;
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .comments {
+    display: none;
+  }
+}
